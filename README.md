@@ -1,7 +1,7 @@
 # 💰 Finance Dashboard
 
-A modern and responsive **Finance Dashboard Web Application** built using React.  
-It helps users track expenses, visualize financial data, and manage spending efficiently with a clean and intuitive interface.
+A modern, scalable **Finance Dashboard Web Application** built with React and TypeScript.  
+It enables users to track expenses, visualize financial data, and gain insights through an intuitive and high-performance interface.
 
 ---
 
@@ -11,29 +11,83 @@ It helps users track expenses, visualize financial data, and manage spending eff
 
 ---
 
-## 🚀 Features
+## 🚀 Key Features
 
-- 📊 Interactive dashboard with real-time insights  
-- 💸 Expense tracking and categorization  
-- 📈 Visual charts for better financial understanding  
-- 🌙 Dark-themed UI for a modern look  
-- ⚡ Fast, responsive, and user-friendly design  
+- 📊 **Interactive Dashboard** – Real-time financial overview  
+- 💸 **Transaction Management** – Add and manage expenses seamlessly  
+- 📈 **Advanced Insights** – Data-driven charts and analytics  
+- 🧠 **State Management** – Centralized store for better scalability  
+- 🌙 **Modern UI/UX** – Clean dark theme with responsive design  
+- ⚡ **Optimized Performance** – Fast and efficient rendering  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React.js  
+- **Frontend:** React.js + TypeScript  
 - **Styling:** Tailwind CSS  
+- **State Management:** Custom Store (financeStore)  
 - **Charts:** Recharts / Chart.js  
+- **Build Tool:** Vite  
 - **Deployment:** Vercel  
+
+---
+
+## 📁 Project Structure
+
+src/
+├── components/
+│ ├── ui/ # Reusable UI components
+│ ├── Layout.tsx
+│ └── TransactionDialog.tsx
+│
+├── hooks/
+│ ├── use-mobile.tsx
+│ └── use-toast.ts
+│
+├── lib/
+│ └── utils.ts
+│
+├── pages/
+│ ├── Dashboard.tsx
+│ ├── Transactions.tsx
+│ ├── Insights.tsx
+│ ├── Cards.tsx
+│ └── not-found.tsx
+│
+├── store/
+│ └── financeStore.ts # Global state management
+│
+├── App.tsx
+├── main.tsx
+└── index.css
 
 
 ---
 
-## 📦 Installation & Setup
+## ✨ Future Enhancements
 
-Clone the repository:
+- 🔐 Authentication (Login / Signup)  
+- ☁️ Backend integration (Firebase / Node.js)  
+- 📤 Export reports (CSV / PDF)  
+- 🤖 AI-powered financial insights  
 
-```bash
-git clone https://github.com/your-username/your-repo-name.git
+---
+
+## 🤝 Contribution
+
+Contributions are welcome!  
+Feel free to fork the repository and submit a pull request.
+
+---
+
+## ⭐ Support
+
+If you find this project useful, consider giving it a ⭐ on GitHub!
+
+---
+
+## 👨‍💻 Author
+
+**Your Name**  
+GitHub: https://github.com/v-oss891
