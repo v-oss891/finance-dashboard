@@ -89,5 +89,5 @@ If you find this project useful, consider giving it a ⭐ on GitHub!
 
 ## 👨‍💻 Author
 
-**Vansh Jain** 
+***Vansh Jain***
 GitHub: https://github.com/v-oss891
