@@ -28,15 +28,6 @@ It helps users track expenses, visualize financial data, and manage spending eff
 - **Charts:** Recharts / Chart.js  
 - **Deployment:** Vercel  
 
----
-
-## 📸 Screenshots
-
-> Add your project screenshots here
-
-Example:
-
-![Dashboard Preview](./screenshots/dashboard.png)
 
 ---
 
