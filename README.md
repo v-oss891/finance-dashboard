@@ -1,44 +1,48 @@
-# Finance Dashboard
+# 💰 Finance Dashboard
 
-React + TypeScript + Vite + Tailwind + shadcn/ui finance tracking app.
+A modern and responsive **Finance Dashboard Web Application** built using React.  
+It helps users track expenses, visualize financial data, and manage spending efficiently with a clean and intuitive interface.
 
-## Features
-- Dashboard with charts & summaries
-- Transactions CRUD (add/edit/delete)
-- Insights & Cards views  
-- Dark mode toggle
-- Responsive UI
-- LocalStorage persistence
+---
 
-## Quick Start
+## 🌐 Live Demo
+
+🔗 https://finance-dashboard-alpha-flame.vercel.app/
+
+---
+
+## 🚀 Features
+
+- 📊 Interactive dashboard with real-time insights  
+- 💸 Expense tracking and categorization  
+- 📈 Visual charts for better financial understanding  
+- 🌙 Dark-themed UI for a modern look  
+- ⚡ Fast, responsive, and user-friendly design  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js  
+- **Styling:** Tailwind CSS  
+- **Charts:** Recharts / Chart.js  
+- **Deployment:** Vercel  
+
+---
+
+## 📸 Screenshots
+
+> Add your project screenshots here
+
+Example:
+
+![Dashboard Preview](./screenshots/dashboard.png)
+
+---
+
+## 📦 Installation & Setup
+
+Clone the repository:
+
 ```bash
-npm install
-npm run dev
-```
-Open http://localhost:5173/
-
-## Scripts
-- `npm run dev` - Development server
-- `npm run build` - Production build
-- `npm run serve` - Preview build
-- `npm run typecheck` - TypeScript check
-
-## Tech Stack
-- React 18 + TypeScript
-- Vite
-- Tailwind CSS + shadcn/ui
-- Recharts
-- TanStack Query
-- Wouter routing
-- React Hook Form + Zod
-
-## Project Structure
-```
-src/
-├── components/     # shadcn/ui + custom
-├── pages/         # Dashboard, Transactions, etc.
-├── store/         # Finance context
-└── hooks/         # Custom hooks
-```
-
-App ready! 🚀
+git clone https://github.com/your-username/your-repo-name.git
